@@ -5,6 +5,10 @@ body {
   padding-bottom: 40px;
 }
 
+a {
+  text-decoration: none;
+}
+
 .flexitem {
   display: flex;
   flex-wrap: wrap;
@@ -233,7 +237,6 @@ h1 {
   flex: 1;
 }
 
-
 .header__logoContainer {
   display: flex;
   align-items: center;
@@ -266,8 +269,6 @@ h1 {
   box-sizing: border-box;
   transition: border-color 0.3s;
 }
-
-
 
 .header__searchIcon {
   position: absolute;

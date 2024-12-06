@@ -15,6 +15,22 @@ import gametwo from "/src/assets/gametwo.jpeg";
 import gamethree from "/src/assets/gamethree.jpeg";
 import gamefour from "/src/assets/gamefour.jpeg";
 import gamefive from "/src/assets/gamefive.jpeg";
+import gamingfive from "/src/assets/gamingfive.jpeg";
+import gamingsix from "/src/assets/gamingsix.jpeg";
+import gamingseven from "/src/assets/gamingseven.jpeg";
+import gamingeight from "/src/assets/gamingeight.jpeg";
+import gamingnine from "/src/assets/gamingnine.jpeg";
+import gamingten from "/src/assets/gamingten.jpeg";
+import gamingelevan from "/src/assets/gamingelevan.jpeg";
+import gamingtwelve from "/src/assets/gamingtwelve.jpeg";
+import gamingthirteen from "/src/assets/gamingthirteen.jpeg";
+import gamingfourteen from "/src/assets/gamingfourteen.jpeg";
+import gamingfifteen from "/src/assets/gamingfifteen.jpeg";
+import gamingsixteen from "/src/assets/gamingsixteen.jpeg";
+import gamingseventeen from "/src/assets/gamingseventeen.jpeg";
+import gamingeighteen from "/src/assets/gamingeighteen.jpeg";
+import gamingnineteen from "/src/assets/gamingnineteen.jpeg";
+import gamingtwenty from "/src/assets/gamingtwenty.jpeg";
 
 
 
@@ -258,65 +274,63 @@ function Gaming() {
         <div className="flexitem">
           <div className="borderone">
             <div>
-              <img src={one} className="oneimg" alt="..." />
+              <img src={gamingfive} className="oneimg" alt="..." />
             </div>
             <div className="card-body">
               <h5 className="card-title">
-              Finally Raistar Vs Classy, Tonde 🤯🔥Raistar Handcam Gameplay🤯❤ [Must Watch] - Garena Free Fire Max
+                Finally Raistar Vs Classy, Tonde 🤯🔥Raistar Handcam Gameplay🤯❤ [Must Watch] - Garena Free Fire Max
               </h5>
               <p className="card-text">
-                 
-Rai World <br />
 
-321K subscribers • 1M views
+                Rai World <br />
+
+                321K subscribers • 1.7M views
               </p>
             </div>
           </div>
           <div className="borderone">
             <div>
-              <img src={one} className="oneimg" alt="..." />
+              <img src={gamingsix} className="oneimg" alt="..." />
             </div>
             <div className="card-body">
               <h5 className="card-title">
-                મીઠુંડી Gujarati slowed & reverb | mithudi gujarati slowed &
-                reverb
+                MSI Stealth 16 AI+ : The Ultimate Thin & Light Gaming/Productivity Powerhouse!
               </h5>
               <p className="card-text">
-                Lofi Anshu
-                <br />
-                8.27K subscribers • 1M views
+
+                Venom's Tech <br />
+                1.06M subscribers • 109K views
               </p>
             </div>
           </div>
           <div className="borderone">
             <div>
-              <img src={one} className="oneimg" alt="..." />
+              <img src={gamingseven} className="oneimg" alt="..." />
+
             </div>
             <div className="card-body">
               <h5 className="card-title">
-                મીઠુંડી Gujarati slowed & reverb | mithudi gujarati slowed &
-                reverb
+                The Most Insane Free Fire Clutch You’ll EVER See! 🔥 (Must Watch)
               </h5>
               <p className="card-text">
-                Lofi Anshu
-                <br />
-                8.27K subscribers • 1M views
+
+                Vincenzo <br />
+                6.89M subscribers • 93K views
               </p>
             </div>
           </div>
           <div className="borderone">
             <div>
-              <img src={one} className="oneimg" alt="..." />
+              <img src={gamingeight} className="oneimg" alt="..." />
             </div>
             <div className="card-body">
               <h5 className="card-title">
-                મીઠુંડી Gujarati slowed & reverb | mithudi gujarati slowed &
-                reverb
+                Porsche 911 GT3 - Forza Horizon 5 (Steering Wheel + Shifter) Gameplay
               </h5>
               <p className="card-text">
-                Lofi Anshu
-                <br />
-                8.27K subscribers • 1M views
+
+                K3BAB <br />
+                745K subscribers • 2.3M views
               </p>
             </div>
           </div>
@@ -327,65 +341,59 @@ Rai World <br />
         <div className="flexitem">
           <div className="borderone">
             <div>
-              <img src={one} className="oneimg" alt="..." />
+              <img src={gamingnine} className="oneimg" alt="..." />
             </div>
             <div className="card-body">
               <h5 className="card-title">
-                મીઠુંડી Gujarati slowed & reverb | mithudi gujarati slowed &
-                reverb
+                Clash of Clans 360: Experience a Virtual Reality Raid
               </h5>
               <p className="card-text">
-                Lofi Anshu
-                <br />
-                8.27K subscribers • 1M views
+                Clash of Clans <br />
+                21.1M subscribers
+                • 103M views
               </p>
             </div>
           </div>
           <div className="borderone">
             <div>
-              <img src={one} className="oneimg" alt="..." />
+              <img src={gamingten} className="oneimg" alt="..." />
             </div>
             <div className="card-body">
               <h5 className="card-title">
-                મીઠુંડી Gujarati slowed & reverb | mithudi gujarati slowed &
-                reverb
+                🔴PUBG PC : ERANGLE SNIPER GAMEPLAY (No Commentary)
               </h5>
               <p className="card-text">
-                Lofi Anshu
-                <br />
-                8.27K subscribers • 1M views
+                PUBG BOX <br />
+                42.3K subscribers • 208K views
               </p>
             </div>
           </div>
           <div className="borderone">
             <div>
-              <img src={one} className="oneimg" alt="..." />
+              <img src={gamingelevan} className="oneimg" alt="..." />
             </div>
             <div className="card-body">
               <h5 className="card-title">
-                મીઠુંડી Gujarati slowed & reverb | mithudi gujarati slowed &
-                reverb
+                Bought 8 Gaming Keyboard Mouse Combo Under Rs.1500/- ONLY!
               </h5>
               <p className="card-text">
-                Lofi Anshu
-                <br />
-                8.27K subscribers • 1M views
+                Venom's Tech <br />
+                1.06M subscribers • 1.4M views
               </p>
             </div>
           </div>
           <div className="borderone">
             <div>
-              <img src={one} className="oneimg" alt="..." />
+              <img src={gamingtwelve} className="oneimg" alt="..." />
             </div>
             <div className="card-body">
               <h5 className="card-title">
-                મીઠુંડી Gujarati slowed & reverb | mithudi gujarati slowed &
-                reverb
+                Azov 4220 Antartic - Towing a Boat on a Muddy Road | SnowRunner | Logitech G29 Gameplay | #595
+
               </h5>
               <p className="card-text">
-                Lofi Anshu
-                <br />
-                8.27K subscribers • 1M views
+                TrueXPG <br />
+                18.8K subscribers • 208K views
               </p>
             </div>
           </div>
@@ -401,132 +409,129 @@ Rai World <br />
         <div className="flexitem">
           <div className="borderone">
             <div>
-              <img src={one} className="oneimg" alt="..." />
+              <img src={gamingthirteen} className="oneimg" alt="..." />
             </div>
             <div className="card-body">
               <h5 className="card-title">
-                મીઠુંડી Gujarati slowed & reverb | mithudi gujarati slowed &
-                reverb
+                Highlight 1VS4 RUSHER ONIC JEK . STYLE BALING BALING BAMBU
               </h5>
               <p className="card-text">
-                Lofi Anshu
-                <br />
-                8.27K subscribers • 1M views
+
+                ONIC JEK <br />
+                47.5K subscribers • 117K views
               </p>
             </div>
           </div>
           <div className="borderone">
             <div>
-              <img src={one} className="oneimg" alt="..." />
+              <img src={gamingfourteen} className="oneimg" alt="..." />
             </div>
             <div className="card-body">
               <h5 className="card-title">
-                મીઠુંડી Gujarati slowed & reverb | mithudi gujarati slowed &
-                reverb
+                Driving one of the fastest trains in Train sim world 3
               </h5>
               <p className="card-text">
-                Lofi Anshu
-                <br />
-                8.27K subscribers • 1M views
+
+                Pyrotical <br />
+                8.17K subscribers • 4.5M views
               </p>
             </div>
           </div>
           <div className="borderone">
             <div>
-              <img src={one} className="oneimg" alt="..." />
+              <img src={gamingfifteen} className="oneimg" alt="..." />
             </div>
             <div className="card-body">
               <h5 className="card-title">
-                મીઠુંડી Gujarati slowed & reverb | mithudi gujarati slowed &
-                reverb
+                [B2K Fan] NEW WORLD RECORD 38 KILLS 1 VS 4 HEROIC LOBBY | ENJOY
               </h5>
               <p className="card-text">
-                Lofi Anshu
-                <br />
-                8.27K subscribers • 1M views
+                B2K Fan <br />
+                7.14K subscribers
+                • 198K views
               </p>
             </div>
           </div>
           <div className="borderone">
             <div>
-              <img src={one} className="oneimg" alt="..." />
+              <img src={gamingsixteen} className="oneimg" alt="..." />
             </div>
             <div className="card-body">
               <h5 className="card-title">
-                મીઠુંડી Gujarati slowed & reverb | mithudi gujarati slowed &
-                reverb
+                (PS5) VIETNAM WAR | Realistic Immersive ULTRA Graphics Gameplay [4K 60FPS HDR] Call of Duty
               </h5>
               <p className="card-text">
-                Lofi Anshu
-                <br />
-                8.27K subscribers • 1M views
+
+                Champs Network <br />
+                501K subscribers • 98K views
               </p>
             </div>
           </div>
         </div>
 
+
+
+
+
+
+
         <div className="flexitem">
           <div className="borderone">
             <div>
-              <img src={one} className="oneimg" alt="..." />
+              <img src={gamingseventeen} className="oneimg" alt="..." />
             </div>
             <div className="card-body">
               <h5 className="card-title">
-                મીઠુંડી Gujarati slowed & reverb | mithudi gujarati slowed &
-                reverb
+                PUBG | 4K Max Settings | RTX 4090
               </h5>
               <p className="card-text">
-                Lofi Anshu
-                <br />
-                8.27K subscribers • 1M views
+
+                RTXLobby <br />
+                8.76K subscribers  • 1.6M views
               </p>
             </div>
           </div>
           <div className="borderone">
             <div>
-              <img src={one} className="oneimg" alt="..." />
+              <img src={gamingeighteen} className="oneimg" alt="..." />
             </div>
             <div className="card-body">
               <h5 className="card-title">
-                મીઠુંડી Gujarati slowed & reverb | mithudi gujarati slowed &
-                reverb
+                PAHADI GAMER IS LIVE | PLAYING SCRIMS ON LIVE
               </h5>
               <p className="card-text">
-                Lofi Anshu
-                <br />
-                8.27K subscribers • 1M views
+
+                Pahadi Gamer <br />
+                1.51M subscribers • 167K views
               </p>
             </div>
           </div>
           <div className="borderone">
             <div>
-              <img src={one} className="oneimg" alt="..." />
+              <img src={gamingnineteen} className="oneimg" alt="..." />
             </div>
             <div className="card-body">
               <h5 className="card-title">
-                મીઠુંડી Gujarati slowed & reverb | mithudi gujarati slowed &
-                reverb
+                STAN Fest Free Fire LAN + Awards Show | Live with Rocky RDX
               </h5>
               <p className="card-text">
-                Lofi Anshu
-                <br />
-                8.27K subscribers • 1M views
+
+                ROCKY & RDX <br />
+                1.34M subscribers • 1.7M views
               </p>
             </div>
           </div>
           <div className="borderone">
             <div>
-              <img src={one} className="oneimg" alt="..." />
+              <img src={gamingtwenty} className="oneimg" alt="..." />
             </div>
             <div className="card-body">
               <h5 className="card-title">
-                મીઠુંડી Gujarati slowed & reverb | mithudi gujarati slowed &
-                reverb
+              We Got Town Hall 16!! Spending Spree on the Update (Clash of Clans)
               </h5>
               <p className="card-text">
-                Lofi Anshu
-                <br />
-                8.27K subscribers • 1M views
+              Judo Sloth Gaming <br />
+              3.18M subscribers • 3.7M views
               </p>
             </div>
           </div>

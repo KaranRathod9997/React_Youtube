@@ -1,5 +1,25 @@
 import React, { useState } from "react";
 // import "./Allcompo.css"
+import seven from "/src/assets/seven.jpeg";
+import twelve from "/src/assets/twelve.jpeg";
+import fourtien from "/src/assets/fourtien.jpeg";
+import eighteen from "/src/assets/eighteen.jpeg";
+import four from "/src/assets/four.jpeg";
+import musicone from "/src/assets/musicone.jpeg";
+import musictwo from "/src/assets/musictwo.jpeg";
+import musicthree from "/src/assets/musicthree.jpeg";
+import musicfour from "/src/assets/musicfour.jpeg";
+import musicfive from "/src/assets/musicfive.jpeg";
+import musicsix from "/src/assets/musicsix.jpeg";
+import musicseven from "/src/assets/musicseven.jpeg";
+import musiceight from "/src/assets/musiceight.jpeg";
+import musicnine from "/src/assets/musicnine.jpeg";
+import musicten from "/src/assets/musicten.jpeg";
+import musicelevan from "/src/assets/musicelevan.jpeg";
+import musictwelve from "/src/assets/musictwelve.jpeg";
+import musicthirteen from "/src/assets/musicthirteen.jpeg";
+import musicfourteen from "/src/assets/musicfourteen.jpeg";
+
 import one from "/src/assets/one.jpeg";
 import { GrLike } from "react-icons/gr";
 import { GrDislike } from "react-icons/gr";
@@ -10,71 +30,71 @@ import { CiMenuKebab } from "react-icons/ci";
 function Music() {
   const [like, setLike] = useState(0);
   const [dislike, setDisLike] = useState(0);
-
   const [liketwo, setLiketwo] = useState(0);
   const [disliketwo, setDisLiketwo] = useState(0);
-
   const [likethree, setLikethree] = useState(0);
   const [dislikethree, setDisLikethree] = useState(0);
-
   const [likefour, setLikefour] = useState(0);
   const [dislikefour, setDisLikefour] = useState(0);
-
   const [likefive, setLikefive] = useState(0);
   const [dislikefive, setDisLikefive] = useState(0);
-
-
 
   const Likecount = () => {
     setLike(prevLike => prevLike + 1);
   };
-
   const DisLikecount = () => {
     setDisLike(prevDisLike => prevDisLike + 1);
   };
-
-
   const Likecountwo = () => {
     setLiketwo(prevLike => prevLike + 1);
   };
-
   const DisLikecountwo = () => {
     setDisLiketwo(prevDisLike => prevDisLike + 1);
   };
-
-
   const Likecountfour = () => {
     setLikefour(prevLike => prevLike + 1);
   };
-
   const DisLikecountfour = () => {
     setDisLikefour(prevDisLike => prevDisLike + 1);
   };
-
-
   const Likecounthree = () => {
     setLikethree(prevLike => prevLike + 1);
   };
-
   const DisLikecounthree = () => {
     setDisLikethree(prevDisLike => prevDisLike + 1);
   };
-
-
   const Likecountfive = () => {
     setLikefive(prevLike => prevLike + 1);
   };
-
   const DisLikecountfive = () => {
     setDisLikefive(prevDisLike => prevDisLike + 1);
   };
-
-
   return (
     <>
       <div className="card-group All_card Frist_group">
         <div className="flexitem">
+
+
           <div className="borderone">
+            <div>
+              <img src={seven} className="oneimg" alt="..." />
+            </div>
+            <div className="card-body">
+              <h5 className="card-title">
+                श्री हनुमान चालीसा |🙏🌺| GULSHAN KUMAR | HARIHARAN |Full HD
+              </h5>
+              <p className="card-text">
+
+                T-Series Bhakti Sagar <br />
+                72.3M subscribers • 4.1B views
+              </p>
+            </div>
+          </div>
+
+
+
+
+          <div className="borderone" >
             <div>
               <img src={one} className="oneimg" alt="..." />
             </div>
@@ -92,49 +112,30 @@ function Music() {
           </div>
           <div className="borderone">
             <div>
-              <img src={one} className="oneimg" alt="..." />
+              <img src={twelve} className="oneimg" alt="..." />
             </div>
             <div className="card-body">
               <h5 className="card-title">
-                મીઠુંડી Gujarati slowed & reverb | mithudi gujarati slowed &
-                reverb
+                Krishna Lofi Songs 2.0 | Slow & Reverb | The Sound Of Inner Peace | Relaxing Lofi Song
               </h5>
               <p className="card-text">
-                Lofi Anshu
-                <br />
-                8.27K subscribers • 1M views
+                Krishna for Life <br />
+                77K subscribers • 2.2M views
               </p>
             </div>
           </div>
           <div className="borderone">
             <div>
-              <img src={one} className="oneimg" alt="..." />
+              <img src={fourtien} className="oneimg" alt="..." />
             </div>
             <div className="card-body">
               <h5 className="card-title">
-                મીઠુંડી Gujarati slowed & reverb | mithudi gujarati slowed &
-                reverb
+                Witness the POWER of LORD SHIVA and feel his STRONG PRESENCE through this ANCIENT MANTRA
               </h5>
               <p className="card-text">
-                Lofi Anshu
-                <br />
-                8.27K subscribers • 1M views
-              </p>
-            </div>
-          </div>
-          <div className="borderone">
-            <div>
-              <img src={one} className="oneimg" alt="..." />
-            </div>
-            <div className="card-body">
-              <h5 className="card-title">
-                મીઠુંડી Gujarati slowed & reverb | mithudi gujarati slowed &
-                reverb
-              </h5>
-              <p className="card-text">
-                Lofi Anshu
-                <br />
-                8.27K subscribers • 1M views
+
+                Religious India <br />
+                519K subscribers • 54M views
               </p>
             </div>
           </div>
@@ -143,65 +144,60 @@ function Music() {
         <div className="flexitem">
           <div className="borderone">
             <div>
-              <img src={one} className="oneimg" alt="..." />
+              <img src={eighteen} className="oneimg" alt="..." />
             </div>
             <div className="card-body">
               <h5 className="card-title">
-                મીઠુંડી Gujarati slowed & reverb | mithudi gujarati slowed &
-                reverb
+                Today dwarkadhish Shayan Stuti (30/11/2023) ( dwarkadhish Shayan Stuti lyrics in Gujarati)
               </h5>
               <p className="card-text">
-                Lofi Anshu
-                <br />
-                8.27K subscribers • 1M views
+                fan_club_of dwarkadhish <br />
+                6.54K subscribers • 1.5M views
               </p>
             </div>
           </div>
           <div className="borderone">
             <div>
-              <img src={one} className="oneimg" alt="..." />
+              <img src={four} className="oneimg" alt="..." />
             </div>
             <div className="card-body">
               <h5 className="card-title">
-                મીઠુંડી Gujarati slowed & reverb | mithudi gujarati slowed &
-                reverb
+                Desi Hood - Krish Rao | Gully Gang Records | Latest Haryanvi Song 2024
               </h5>
               <p className="card-text">
-                Lofi Anshu
-                <br />
-                8.27K subscribers • 1M views
+
+                Krish Rao <br />
+                161K subscribers • 12M views
               </p>
             </div>
           </div>
           <div className="borderone">
             <div>
-              <img src={one} className="oneimg" alt="..." />
+              <img src={musicone} className="oneimg" alt="..." />
             </div>
             <div className="card-body">
               <h5 className="card-title">
-                મીઠુંડી Gujarati slowed & reverb | mithudi gujarati slowed &
-                reverb
+                KIRTIDAN GADHVI NO TAHUKAR Part 1 | Nonstop Full Audio | કિર્તીદાન ગઢવી નો ટહુકાર ભાગ ૧
               </h5>
               <p className="card-text">
-                Lofi Anshu
-                <br />
-                8.27K subscribers • 1M views
+
+                Studio Saraswati Official Channel <br />
+                832K subscribers • 3.2M views
               </p>
             </div>
           </div>
           <div className="borderone">
             <div>
-              <img src={one} className="oneimg" alt="..." />
+              <img src={musictwo} className="oneimg" alt="..." />
             </div>
             <div className="card-body">
               <h5 className="card-title">
-                મીઠુંડી Gujarati slowed & reverb | mithudi gujarati slowed &
-                reverb
+                Moments of Love Jukebox | AMEET Mashup | Arijit Singh Songs | Arijit Singh Jukebox | Best of 2024
               </h5>
               <p className="card-text">
                 Lofi Anshu
                 <br />
-                8.27K subscribers • 1M views
+                8.27K subscribers • 5.3M views
               </p>
             </div>
           </div>
@@ -320,65 +316,61 @@ function Music() {
         <div className="flexitem">
           <div className="borderone">
             <div>
-              <img src={one} className="oneimg" alt="..." />
+              <img src={musicthree} className="oneimg" alt="..." />
             </div>
             <div className="card-body">
               <h5 className="card-title">
-                મીઠુંડી Gujarati slowed & reverb | mithudi gujarati slowed &
-                reverb
+                Mari Aankhe Ujagara - Gopal Bharwad - 4K Video - Latest Gujarati Song 2024
               </h5>
               <p className="card-text">
-                Lofi Anshu
-                <br />
-                8.27K subscribers • 1M views
+
+                Jigar Studio <br />
+                4.23M subscribers
+                • 233K views
               </p>
             </div>
           </div>
           <div className="borderone">
             <div>
-              <img src={one} className="oneimg" alt="..." />
+              <img src={musicfour} className="oneimg" alt="..." />
             </div>
             <div className="card-body">
               <h5 className="card-title">
-                મીઠુંડી Gujarati slowed & reverb | mithudi gujarati slowed &
-                reverb
+                Tainu Khabar Nahi (From "Munjya")
               </h5>
               <p className="card-text">
-                Lofi Anshu
-                <br />
-                8.27K subscribers • 1M views
+                Sachin Jigar <br />
+                603K subscribers • 12M views
               </p>
             </div>
           </div>
           <div className="borderone">
             <div>
-              <img src={one} className="oneimg" alt="..." />
+              <img src={musicfive} className="oneimg" alt="..." />
             </div>
             <div className="card-body">
               <h5 className="card-title">
-                મીઠુંડી Gujarati slowed & reverb | mithudi gujarati slowed &
-                reverb
+                Playlist to listen while captivated by Krishna’s beauty
               </h5>
               <p className="card-text">
-                Lofi Anshu
-                <br />
-                8.27K subscribers • 1M views
+
+                The Tanvi <br />
+                21.7K subscribers • 4.1M views
               </p>
             </div>
           </div>
           <div className="borderone">
             <div>
-              <img src={one} className="oneimg" alt="..." />
+              <img src={musicsix} className="oneimg" alt="..." />
             </div>
             <div className="card-body">
               <h5 className="card-title">
-                મીઠુંડી Gujarati slowed & reverb | mithudi gujarati slowed &
-                reverb
+                Nagar Seth Nam Ni Dwarka Dham Ni - Geeta Rabari | Dwarkadish New Song | New Song 2023
               </h5>
               <p className="card-text">
-                Lofi Anshu
-                <br />
-                8.27K subscribers • 1M views
+
+                GeetaBen Rabari <br />
+                2.15M subscribers • 2.3M views
               </p>
             </div>
           </div>
@@ -394,132 +386,127 @@ function Music() {
         <div className="flexitem">
           <div className="borderone">
             <div>
-              <img src={one} className="oneimg" alt="..." />
+              <img src={musicseven} className="oneimg" alt="..." />
             </div>
             <div className="card-body">
               <h5 className="card-title">
-                મીઠુંડી Gujarati slowed & reverb | mithudi gujarati slowed &
-                reverb
+                PUNJABI SWAG 🔥 | Top Attitude Mashup 2024 | DEV's Expertise
               </h5>
               <p className="card-text">
-                Lofi Anshu
-                <br />
-                8.27K subscribers • 1M views
+
+                DEV's Expertise <br />
+                95.5K subscribers • 1.1M views
               </p>
             </div>
           </div>
           <div className="borderone">
             <div>
-              <img src={one} className="oneimg" alt="..." />
+              <img src={musiceight} className="oneimg" alt="..." />
             </div>
             <div className="card-body">
               <h5 className="card-title">
-                મીઠુંડી Gujarati slowed & reverb | mithudi gujarati slowed &
-                reverb
+                NON STOP INSTAGRAM TRENDING LOVE MASHUP - Part 5 | PLAYLIST BY ‪@lofi2307‬ | #instatrendingsongs
               </h5>
               <p className="card-text">
-                Lofi Anshu
-                <br />
-                8.27K subscribers • 1M views
+
+                Lo-fi 2307 Official <br />
+                696K subscribers • 878kM views
               </p>
             </div>
           </div>
           <div className="borderone">
             <div>
-              <img src={one} className="oneimg" alt="..." />
+              <img src={musicnine} className="oneimg" alt="..." />
             </div>
             <div className="card-body">
               <h5 className="card-title">
-                મીઠુંડી Gujarati slowed & reverb | mithudi gujarati slowed &
-                reverb
+                Top 4 Shoorveer Song | Gym song |Shoorveer,Shoorveer3, Aarambh Hai prachand,Ghamand Kar.
               </h5>
               <p className="card-text">
-                Lofi Anshu
-                <br />
-                8.27K subscribers • 1M views
+
+                IGR music <br />
+                11.7K subscribers• 3.2M views
               </p>
             </div>
           </div>
           <div className="borderone">
             <div>
-              <img src={one} className="oneimg" alt="..." />
+              <img src={musicten} className="oneimg" alt="..." />
             </div>
             <div className="card-body">
               <h5 className="card-title">
-                મીઠુંડી Gujarati slowed & reverb | mithudi gujarati slowed &
-                reverb
+                Peaky Blinders || Skyfall
               </h5>
               <p className="card-text">
-                Lofi Anshu
-                <br />
-                8.27K subscribers • 1M views
+
+                Scandy <br />
+                5.22K subscribers • 957K views
               </p>
             </div>
           </div>
         </div>
 
+
+
+
+
         <div className="flexitem">
           <div className="borderone">
             <div>
-              <img src={one} className="oneimg" alt="..." />
+              <img src={musicelevan} className="oneimg" alt="..." />
             </div>
             <div className="card-body">
               <h5 className="card-title">
-                મીઠુંડી Gujarati slowed & reverb | mithudi gujarati slowed &
-                reverb
+                Bella Ciao Full Song | La Casa De Papel | Money Heist | Netflix India
               </h5>
               <p className="card-text">
-                Lofi Anshu
-                <br />
-                8.27K subscribers • 1M views
+                Netflix India <br />
+                25.2M subscribers • 95M views
               </p>
             </div>
           </div>
           <div className="borderone">
             <div>
-              <img src={one} className="oneimg" alt="..." />
+              <img src={musictwelve} className="oneimg" alt="..." />
             </div>
             <div className="card-body">
               <h5 className="card-title">
-                મીઠુંડી Gujarati slowed & reverb | mithudi gujarati slowed &
-                reverb
+                Ra Ra Ra Song Tanaji | Tanaji Unsung Warrior Song | Ghamand Kar Tanhaji
               </h5>
               <p className="card-text">
-                Lofi Anshu
-                <br />
-                8.27K subscribers • 1M views
+
+                Aj Editor <br />
+                29.7K subscribers • 6.6M views
               </p>
             </div>
           </div>
           <div className="borderone">
             <div>
-              <img src={one} className="oneimg" alt="..." />
+              <img src={musicthirteen} className="oneimg" alt="..." />
             </div>
             <div className="card-body">
               <h5 className="card-title">
-                મીઠુંડી Gujarati slowed & reverb | mithudi gujarati slowed &
-                reverb
+                Kerosene (POV) - Assetto Corsa
               </h5>
               <p className="card-text">
-                Lofi Anshu
-                <br />
-                8.27K subscribers • 1M views
+
+                ENVIOUS <br />
+                21.5K subscribers • 6.5M views
               </p>
             </div>
           </div>
           <div className="borderone">
             <div>
-              <img src={one} className="oneimg" alt="..." />
+              <img src={musicfourteen} className="oneimg" alt="..." />
             </div>
             <div className="card-body">
               <h5 className="card-title">
-                મીઠુંડી Gujarati slowed & reverb | mithudi gujarati slowed &
-                reverb
+                Hai Katha Sangram Ki | Mahabharat | All Songs | Slowed and Reverbed | Use Headphones 🎧| Ritish Dhar
               </h5>
               <p className="card-text">
-                Lofi Anshu
-                <br />
-                8.27K subscribers • 1M views
+
+                ritishhh. <br />
+                29.5K subscribers• 13M views
               </p>
             </div>
           </div>

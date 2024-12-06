@@ -26,78 +26,54 @@ import eighteen from "/src/assets/eighteen.jpeg";
 import nineteen from "/src/assets/nineteen.jpeg";
 import tweventy from "/src/assets/tweventy.jpeg";
 
-
 import { GrLike } from "react-icons/gr";
 import { GrDislike } from "react-icons/gr";
 import { MdOutlineComment } from "react-icons/md";
 import { FaShare } from "react-icons/fa6";
 import { CiMenuKebab } from "react-icons/ci";
 
-
 function All() {
-
   const [like, setLike] = useState(0);
   const [dislike, setDisLike] = useState(0);
-
   const [liketwo, setLiketwo] = useState(0);
   const [disliketwo, setDisLiketwo] = useState(0);
-
   const [likethree, setLikethree] = useState(0);
   const [dislikethree, setDisLikethree] = useState(0);
-
   const [likefour, setLikefour] = useState(0);
   const [dislikefour, setDisLikefour] = useState(0);
-
   const [likefive, setLikefive] = useState(0);
   const [dislikefive, setDisLikefive] = useState(0);
-
-
 
   const Likecount = () => {
     setLike(prevLike => prevLike + 1);
   };
-
   const DisLikecount = () => {
     setDisLike(prevDisLike => prevDisLike + 1);
   };
-
-
   const Likecountwo = () => {
     setLiketwo(prevLike => prevLike + 1);
   };
-
   const DisLikecountwo = () => {
     setDisLiketwo(prevDisLike => prevDisLike + 1);
   };
-
-
   const Likecountfour = () => {
     setLikefour(prevLike => prevLike + 1);
   };
-
   const DisLikecountfour = () => {
     setDisLikefour(prevDisLike => prevDisLike + 1);
   };
-
-
   const Likecounthree = () => {
     setLikethree(prevLike => prevLike + 1);
   };
-
   const DisLikecounthree = () => {
     setDisLikethree(prevDisLike => prevDisLike + 1);
   };
-
-
   const Likecountfive = () => {
     setLikefive(prevLike => prevLike + 1);
   };
-
   const DisLikecountfive = () => {
     setDisLikefive(prevDisLike => prevDisLike + 1);
   };
-
-
   return (
     <>
       <div className="card-group All_card Frist_group">
