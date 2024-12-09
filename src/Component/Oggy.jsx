@@ -1,5 +1,3 @@
-
-
 import React, { useState } from "react";
 import one from "/src/assets/one.jpeg";
 import oggyone from "/src/assets/oggyone.jpeg";
@@ -18,6 +16,10 @@ import oggytwelve from "/src/assets/oggytwelve.jpeg";
 import oggythirteen from "/src/assets/oggythirteen.jpeg";
 import oggyfourteen from "/src/assets/oggyfourteen.jpeg";
 import oggyfifteen from "/src/assets/oggyfifteen.jpeg";
+import oggysixteen from "/src/assets/oggysixteen.jpeg";
+import oggyseventeen from "/src/assets/oggyseventeen.jpeg";
+import oggyeighteen from "/src/assets/oggyeighteen.jpeg";
+import oggynineteen from "/src/assets/oggynineteen.jpeg";
 
 import "./Allcompo.css"
 import { GrLike } from "react-icons/gr";
@@ -479,66 +481,68 @@ function Oggy() {
         </div>
 
         <div className="flexitem">
-          <a href="https://www.youtube.com/watch?v=_KYqjiqy9JI">
+          <a href="https://www.youtube.com/watch?v=wOhBarn675o">
             <div className="borderone">
               <div>
-                <img src={oggyelevan} className="oneimg" alt="..." />
+                <img src={oggysixteen} className="oneimg" alt="..." />
               </div>
               <div className="card-body">
                 <h5 className="card-title">
-                  Oggy và những chú gián tinh nghịch | THE GIANT người khổng lồ | S04E23 | phim hoạt hình
-                </h5>
+                  Oggy und die Kakerlaken | Engel oder Dämon | Volledige aflevering in HD                </h5>
                 <p className="card-text">
-                  Oggy và những chú gián tinh nghịch <br />
-                  635K subscribers • 28M views
+
+                  Oggy und die Kakerlaken <br />
+                  2.45M subscribers • 18M views
                 </p>
               </div>
             </div>
           </a>
-          <a href="https://www.youtube.com/watch?v=_KYqjiqy9JI">
+          <a href="https://www.youtube.com/watch?v=t-EYRmh7yJU">
             <div className="borderone">
               <div>
-                <img src={oggyelevan} className="oneimg" alt="..." />
+                <img src={oggyseventeen} className="oneimg" alt="..." />
               </div>
               <div className="card-body">
                 <h5 className="card-title">
-                  Oggy và những chú gián tinh nghịch | THE GIANT người khổng lồ | S04E23 | phim hoạt hình
+                  Oggy et les Cafards - Oggy et le sourire magique (S04e48) Episode complet en HD
                 </h5>
                 <p className="card-text">
-                  Oggy và những chú gián tinh nghịch <br />
-                  635K subscribers • 28M views
+
+                  XILAM TV <br />
+                  3.65M subscribers• 58M views
                 </p>
               </div>
             </div>
           </a>
-          <a href="https://www.youtube.com/watch?v=_KYqjiqy9JI">
+          <a href="https://www.youtube.com/watch?v=dAlN4Q9wI9I">
             <div className="borderone">
               <div>
-                <img src={oggyelevan} className="oneimg" alt="..." />
+                <img src={oggyeighteen} className="oneimg" alt="..." />
               </div>
               <div className="card-body">
                 <h5 className="card-title">
-                  Oggy và những chú gián tinh nghịch | THE GIANT người khổng lồ | S04E23 | phim hoạt hình
+                  Oggy und die Kakerlaken | Lady K 💖 Kompilation | Volledige aflevering in HD
                 </h5>
                 <p className="card-text">
-                  Oggy và những chú gián tinh nghịch <br />
-                  635K subscribers • 28M views
+
+                  Oggy und die Kakerlaken
+                  2.45M subscribers • 5.6M views
                 </p>
               </div>
             </div>
           </a>
-          <a href="https://www.youtube.com/watch?v=_KYqjiqy9JI">
+          <a href="https://www.youtube.com/watch?v=ofP1jCGFST0">
             <div className="borderone">
               <div>
-                <img src={oggyelevan} className="oneimg" alt="..." />
+                <img src={oggynineteen} className="oneimg" alt="..." />
               </div>
               <div className="card-body">
                 <h5 className="card-title">
-                  Oggy và những chú gián tinh nghịch | THE GIANT người khổng lồ | S04E23 | phim hoạt hình
+                  Oggy und die Kakerlaken - Militär/Gefängnis Kompilation | Volledige aflevering in HD
                 </h5>
                 <p className="card-text">
-                  Oggy và những chú gián tinh nghịch <br />
-                  635K subscribers • 28M views
+                  Oggy und die Kakerlaken <br />
+                  2.45M subscribers • 10M views
                 </p>
               </div>
             </div>
